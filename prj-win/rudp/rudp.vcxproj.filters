@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="..\..\rudp\Window\CongestionWindow_BIC.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Window\CongestionWindow_CTCP.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Window\CongestionWindow_CUBIC.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Window\CongestionWindow_Reno.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Window\CongestionWindow_Tahoe.h">
+      <Filter>Window</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Stack\RUDPStack.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Stack\BinaryHelper.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Stack\PhysicalSocket.h">
+      <Filter>Stack</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\MTUTuning\PMTUDiscovery.h">
+      <Filter>MTUTuning</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Fragments\FragmentInformation.h">
+      <Filter>Fragments</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\IngoingList.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\IngoingList_rwlock.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\RUDPACKPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\RUDPIngoingPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\RUDPOutgoingPacket.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Packet\RUDPPacketChannel.h">
+      <Filter>Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\SACK\SACKWindow.h">
+      <Filter>SACK</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\Debuger\ExceptionHandler.h">
+      <Filter>Debuger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\PayloadManager\PayloadManager.h">
+      <Filter>PayloadManger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\CommandProcesser\CommandProcesser.h">
+      <Filter>CommandProcesser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\CommandProcesser\ICommand.h">
+      <Filter>CommandProcesser</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\rudp\RUDPSocket.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Window">
+      <UniqueIdentifier>{3980b986-86d0-42cb-9f73-57207792240b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Stack">
+      <UniqueIdentifier>{4032fcac-5db6-4f9c-ba58-d44cf83baea9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MTUTuning">
+      <UniqueIdentifier>{aca036d1-0df9-4241-9b82-3463961ef12d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fragments">
+      <UniqueIdentifier>{cb241c20-4315-4ebd-84aa-5dc7784bff32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Packet">
+      <UniqueIdentifier>{0495e4cc-c51d-4d73-a5df-48b11c428542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SACK">
+      <UniqueIdentifier>{94fc47f5-5ba8-47a9-b5ac-e68fbd0d2d01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debuger">
+      <UniqueIdentifier>{ea53235d-3615-496e-b4bd-06207b8111d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PayloadManger">
+      <UniqueIdentifier>{15484618-8c1a-4efa-8152-c6076408aace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CommandProcesser">
+      <UniqueIdentifier>{1c1cfe71-c0e0-4459-9d87-35ca161f5f31}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\rudp\RUDPSocket.cpp" />
+  </ItemGroup>
+</Project>
